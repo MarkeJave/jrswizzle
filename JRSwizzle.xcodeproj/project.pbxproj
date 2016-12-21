@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		0832A8141E0A934800A132F9 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0832A8121E0A934800A132F9 /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0832A8151E0A934800A132F9 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0832A8131E0A934800A132F9 /* JRSwizzle.m */; };
+		08AFDF9D1E0AA14D00942754 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08AFDF9C1E0AA14D00942754 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0832A8071E0A931400A132F9 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0832A8121E0A934800A132F9 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = SOURCE_ROOT; };
 		0832A8131E0A934800A132F9 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = SOURCE_ROOT; };
+		08AFDF9C1E0AA14D00942754 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 		0832A7FD1E0A931400A132F9 = {
 			isa = PBXGroup;
 			children = (
+				08AFDF9C1E0AA14D00942754 /* Info.plist */,
 				0832A8091E0A931400A132F9 /* JRSwizzle */,
 				0832A8081E0A931400A132F9 /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AFDF9D1E0AA14D00942754 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +247,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -260,6 +265,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
